@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>se.distansakademin</groupId>
 	<artifactId>code-pipeline-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<name>code-pipeline-demo</name>
 	<description>Demo project for Spring Boot Elastic Beanstalk</description>
 	<properties>
