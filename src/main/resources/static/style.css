@@ -1,0 +1,16 @@
+*{ box-sizing: border-box }
+h1,h2,h3,h4,h5,h6{
+    font-family: "Arial Black";
+    text-align: center;
+}
+html{
+    background: #789b40;
+    padding: 1em;
+}
+body{
+    background: white;
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1em;
+    box-shadow: 1px 1px 5px 0 black;
+}
