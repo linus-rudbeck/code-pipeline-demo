@@ -7,3 +7,5 @@
 [Link to install java 17](https://linux.how2shout.com/how-to-install-java-17-on-amazon-linux-2023/)
 
 [10 Beautiful Font Combinations For All Your Design Needs](https://inkbotdesign.com/font-combinations/)
+
+[SSL Guide](https://www.thomasvitale.com/https-spring-boot-ssl-certificate/)
