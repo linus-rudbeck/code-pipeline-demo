@@ -4,6 +4,9 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Raleway', sans-serif;
 }
+h1{
+    line-height: 1.5em;
+}
 html{
     background: #33383a; /* ADD COLOR FROM LOGO */
     padding: 1em;
@@ -11,13 +14,24 @@ html{
     font-family: 'Lusitana', serif;
 }
 body{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto 2em;
     padding: 0 1em;
+    line-height: 1.4em;
+    letter-spacing: 0.4px;
+}
+
+img{
+    max-width: 100%;
 }
 
 #logo{
     width: 100px;
+}
+
+#profile-picture{
+    max-width: 280px;
+    border-radius: 100%;
 }
 
 a{
@@ -34,4 +48,49 @@ nav a {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     padding: 0 1em;
+}
+
+ul.contact-information{
+    padding-left: 1em;
+}
+
+.contact-information li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4em;
+}
+
+.contact-information li strong{
+    margin: 0 0.2em;
+}
+
+.row{
+    display: flex;
+}
+
+.column {
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-icon {
+    width: 24px;
+}
+
+@media screen and (max-width: 900px){
+    #profile-picture{
+        max-width: 140px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #profile-picture{
+        max-width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
 }
