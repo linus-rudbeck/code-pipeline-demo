@@ -9,3 +9,5 @@
 [10 Beautiful Font Combinations For All Your Design Needs](https://inkbotdesign.com/font-combinations/)
 
 [SSL Guide](https://www.thomasvitale.com/https-spring-boot-ssl-certificate/)
+
+[LetsEncrypt](https://community.letsencrypt.org/t/tutorial-java-keystores-jks-with-lets-encrypt/34754/2)
