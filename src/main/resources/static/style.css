@@ -1,16 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Raleway:wght@700&display=swap');
+
 *{ box-sizing: border-box }
 h1,h2,h3,h4,h5,h6{
-    font-family: "Arial Black";
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 html{
-    background: #789b40;
+    background: #33383a; /* ADD COLOR FROM LOGO */
     padding: 1em;
+    color: white;
+    font-family: 'Lusitana', serif;
 }
 body{
-    background: white;
     max-width: 900px;
-    margin: 2em auto;
-    padding: 1em;
-    box-shadow: 1px 1px 5px 0 black;
+    margin: 0 auto 2em;
+    padding: 0 1em;
+}
+
+#logo{
+    width: 100px;
+}
+
+a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 0 1em;
 }
